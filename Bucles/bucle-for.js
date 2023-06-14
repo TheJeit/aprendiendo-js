@@ -135,12 +135,12 @@
 }
 
 {//Ejercicio 8
-//     Se trata de dibujar un triángulo con asteriscos. El usuario tecleará un valor entero,
-//      el programa escribirá con asteriscos tantas lineas como diga ese número. Cada linea estará
-//       formada por una serie de astericos tan larga como diga el número de línea en el que está.
+    //     Se trata de dibujar un triángulo con asteriscos. El usuario tecleará un valor entero,
+    //      el programa escribirá con asteriscos tantas lineas como diga ese número. Cada linea estará
+    //       formada por una serie de astericos tan larga como diga el número de línea en el que está.
 
-//      Para separar una linea de la siguiente en console o en alert debes usar "\n".
-//      En este ejercicio usa console.log.
+    //      Para separar una linea de la siguiente en console o en alert debes usar "\n".
+    //      En este ejercicio usa console.log.
 
 
     // let num = parseInt(prompt("Ingresa un numero"));
@@ -170,6 +170,20 @@
 {//Ejercicio 10
     // Programa un script que pida al usuario que teclee 4 números (uno cada vez). Con esos números
     // el programa deberá calcular la media aritmética. O sea la suma de los 4 números dividida entre 4
+
+    // El progrma pide 4 veces al usuario que telcee un número y este escribe 5,9,10,12.
+    // El programa dirá "La media es 9"
+
+    let num1 = parseInt(prompt("Ingresa tu número 1"));
+    let num2 = parseInt(prompt("Ingresa tu número 2"));
+    let num3 = parseInt(prompt("Ingresa tu número 3"));
+    let num4 = parseInt(prompt("Ingresa tu número 4"));
+    let imprime = 0;
+
+    for (let i = 0; i < 1; i++) {
+        imprime = (num1 + num2 + num3 + num4) / 4;
+    }
+    console.log(imprime);
 }
 
 
